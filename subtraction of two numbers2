@@ -1,0 +1,19 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a,b,sub;
+    
+    cout<<"Enter value of a:";
+    cin>>a;
+    cout<<"Enter value of b:";
+    cin>>b;
+    
+    sub=a-b;
+    
+    cout<<"Sub of a and b is:"<<sub;
+    
+    return 0;
+}
