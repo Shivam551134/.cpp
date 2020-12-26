@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int numberone, numbertwo, suboftwonumbers;
+    
+    cout << "Enter two integers: ";
+    cin >> numberone >> numbertwo;
+    
+    //subtraction of two numbers is stored in variable suboftwonumbers
+    suboftwonumbers = numberone - numbertwo;
+    
+    //Print sum
+    cout << numberone << " - " << numbertwo << " = " <<suboftwonumbers;
+
+    return 0;
+}
